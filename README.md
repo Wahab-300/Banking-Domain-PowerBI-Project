@@ -79,20 +79,6 @@ Data is stored in a local MySQL server and queried directly by Power BI. MySQL W
 
 ---
 
-## 🚀 Getting Started
-
-**Prerequisites:** Power BI Desktop · MySQL Server · Python 3.8+
-
-```bash
-# 1. Restore the database
-mysql -u root -p banking_db < sql/banking_schema.sql
-
-# 2. Install Python dependencies
-pip install pandas matplotlib seaborn sqlalchemy
-
-# 3. Run EDA notebook
-jupyter notebook eda/banking_eda.ipynb
-```
 
 Then open `Banking_Dashboard.pbix` in Power BI Desktop, go to **Transform Data → Data Source Settings**, update the MySQL connection string, and hit Refresh.
 
@@ -101,7 +87,7 @@ Then open `Banking_Dashboard.pbix` in Power BI Desktop, go to **Transform Data �
 
 ## 👤 Author
 
-**[Your Name]** — Data Analyst | Power BI Developer  
-[LinkedIn](#) · [GitHub](#)
+**Abdul Wahab** — Data Analyst | Power BI Developer  
+ https://github.com/Wahab-300/
 
 > Dataset is fictional and used for portfolio/educational purposes only.
